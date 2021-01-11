@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Igtampe.Tetris</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BasicGraphics">
+      <HintPath>..\..\BasicRender\BasicGraphics.C\bin\Debug\BasicGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicRender">
+      <HintPath>..\..\BasicRender\BasicRender\bin\Debug\BasicRender.dll</HintPath>
+    </Reference>
+    <Reference Include="BasicWindows">
+      <HintPath>..\..\BasicRender\BasicWindow.C\bin\Debug\BasicWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="Igtampe.BasicFonts">
+      <HintPath>..\..\BasicRender\Igtampe.BasicFonts\bin\Debug\Igtampe.BasicFonts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
